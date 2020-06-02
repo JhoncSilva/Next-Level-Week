@@ -9,7 +9,7 @@ A trilha que eu estou fazendo é a starter, e estarei atualizando o conteúdo do
 Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace que ajuda a encontrar pontos de coleta de forma eficiente.
 
 - [x] Dia 1
-- [ ] Dia 2
+- [x] Dia 2
 - [ ] Dia 3
 - [ ] Dia 4
 - [ ] Dia 5
