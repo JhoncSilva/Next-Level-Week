@@ -1,0 +1,37 @@
+/* configuração de responsividade, para telas de tamanhos diferentes*/
+@media (max-width: 900px) {
+    /* a imagem vai sumir, os titulos vão centralizar, e o header vai se dividir quando a largura for menor que 900px*/
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;  
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+}
+@media (min-width: 1700px) {
+    /*imagem background vai ficar fixa com mais de 1700px de largura*/
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    /* imagem background vai ficar fixa com menos de 760px de altura*/
+    #page-home {
+        background-position-y: 200px;
+    }
+}
