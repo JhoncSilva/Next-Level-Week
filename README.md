@@ -13,3 +13,5 @@ Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace qu
 - [ ] Dia 3
 - [ ] Dia 4
 - [ ] Dia 5
+
+**Bora Codar!** :rocket:
