@@ -14,10 +14,20 @@ Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace qu
 - [ ] Dia 4
 - [ ] Dia 5
 
-## :camera: Screenchots
+# :camera: Screenshots
+## Dia 1
+* Introdução ao projeto
+* Criação da página inicial
+* HTML e CSS
+<img src="Assets/Print-Index.jpg" alt="página index" width="600"/>
 
+## Dia 2
+* Introdução ao Javascript
+* Página de criar ponto de coleta
+* HTML, CSS e JS
+<img src="Assets/Print-Create-Point.jpg" alt="Página criar ponto de coleta" width="600"/>
 
----
+***
 <p align="center"><b>
   Bora Codar! :rocket:</b>
 </p>
