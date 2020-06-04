@@ -9,23 +9,37 @@ A trilha que eu estou fazendo é a starter, e estarei atualizando o conteúdo do
 Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace que ajuda a encontrar pontos de coleta de forma eficiente.
 
 - [x] Dia 1
-- [x] Dia 2
-- [ ] Dia 3
-- [ ] Dia 4
-- [ ] Dia 5
-
-# :camera: Screenshots
-## Dia 1
 * Introdução ao projeto
 * Criação da página inicial
 * HTML e CSS
-<img src="Assets/Print-Index.jpg" alt="página index" width="600"/>
+* Introdução a responsividade
+<img src="Assets/Print-Index.jpg" alt="Página index" width="600"/>
 
-## Dia 2
+- [x] Dia 2
 * Introdução ao Javascript
 * Página de criar ponto de coleta
 * HTML, CSS e JS
 <img src="Assets/Print-Create-Point.jpg" alt="Página criar ponto de coleta" width="600"/>
+
+- [x] Dia 3
+* Correção de bugs
+* Att na responsividade dos sites
+* Att página inicial e Ponto de coleta
+
+<img src="Assets/Print-Index-2.jpg" alt="Página Index 2" width="600"/>
+
+<img src="Assets/Print-Create-Point-2.jpg" alt="Página criar ponto de coleta 2" width="600"/>
+
+
+* Criação da página de resultados de pesquisa
+
+<img src="Assets/Print-Search-Results.jpg" alt="Página resultados de pesquisa" width="600"/>
+
+- [ ] Dia 4
+
+- [ ] Dia 5
+
+
 
 ***
 <p align="center"><b>
