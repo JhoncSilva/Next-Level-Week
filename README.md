@@ -25,13 +25,11 @@ Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace qu
 * Correção de bugs
 * Att na responsividade dos sites
 * Att página inicial e Ponto de coleta
+* Criação da página de resultados de pesquisa
 
 <img src="Assets/Print-Index-2.jpg" alt="Página Index 2" width="600"/>
 
 <img src="Assets/Print-Create-Point-2.jpg" alt="Página criar ponto de coleta 2" width="600"/>
-
-
-* Criação da página de resultados de pesquisa
 
 <img src="Assets/Print-Search-Results.jpg" alt="Página resultados de pesquisa" width="600"/>
 
