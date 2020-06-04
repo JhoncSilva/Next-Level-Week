@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="/styles/Main.css">
     <link rel="stylesheet" href="/styles/Home.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+
     <link rel="stylesheet" href="/styles/Responsive.css">
 </head>
 <body>
@@ -30,7 +32,7 @@
         <div class="content">
             <header>
                 <img src="/Assets/logo.svg" alt="Logomarca Ecoleta">
-                <a href="#">
+                <a href="create-point.html">
                     <span></span>
                     Cadastre um ponto de coleta
                 </a>
@@ -49,6 +51,25 @@
         </div>
 
     </div>
- 
+    
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <div class="header">
+                <h1>Pontos de Coleta</h1>
+                <a href="#">Fechar</a>
+            </div>
+            <form action="search-results.html">
+                <label for="search">Cidade</label>
+                <div class="search field">
+                    <input type="text" name="search" placeholder="Pesquise por cidade">
+                    <button>
+                        <img src="/Assets/search.svg" alt="Buscar">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Scripts/index.js"></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 /* configuração de responsividade, para telas de tamanhos diferentes*/
+
 @media (max-width: 900px) {
     /* a imagem vai sumir, os titulos vão centralizar, e o header vai se dividir quando a largura for menor que 900px*/
     #page-home {
@@ -21,6 +22,14 @@
     #page-home main {
         align-items: center;
     }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 200px;
+    }
 }
 @media (min-width: 1700px) {
     /*imagem background vai ficar fixa com mais de 1700px de largura*/
@@ -33,5 +42,56 @@
     /* imagem background vai ficar fixa com menos de 760px de altura*/
     #page-home {
         background-position-y: 200px;
+    }
+}
+
+@media (max-width: 650px ) {
+    
+    /* pesquisar ponto de coleta e cadastrar ponto de coleta não se colidem mais em mobile*/
+    #page-home header a {
+        position: absolute;
+        bottom: 0;  
+        width: 200px;
+        line-height: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home header a span {
+        background:none;
+    }
+    
+    #page-home .content main a {
+        margin-bottom: 30px;
+    }
+
+    /* formulários de create-point adaptados para mobile*/
+
+    #page-create-point .items-grid {
+        grid-template-columns: auto;
+    }
+
+    #page-create-point form {
+        margin: auto;
+        padding: 0;
+    }
+
+    #page-create-point form input {
+        max-width: 300px
+    }
+
+    #page-create-point form .field {
+        flex:none;
+    }
+
+    #page-create-point form .field-group {
+        flex-direction:column;
+    }
+
+}
+
+@media (max-width: 400px ) {
+    /* apenas removi o span, que estava se chocando com a img*/
+    #page-search-results header a span {
+        background-image: none;
     }
 }

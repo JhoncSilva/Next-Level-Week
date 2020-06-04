@@ -34,7 +34,7 @@
     margin-right: 16px;
     display: flex;
 
-    background-image: url('../Assets/log-in.svg') no-repeat;
+    background: url('../Assets/log-in.svg') no-repeat;
     
     width: 20px;
     height: 20px;
@@ -97,7 +97,7 @@
 
 #page-home main a span::after {
     content: "";
-    background-image: url('../Assets/search.svg');
+    background: url('../Assets/search.svg');
 
     width: 20px;
     height: 20px;
