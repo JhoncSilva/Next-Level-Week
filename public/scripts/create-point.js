@@ -2,13 +2,13 @@ function populateUFs() {
     const ufSelect = document.querySelector("select[name=uf]")
 
     fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
-    .then( res => res.json())
-    .then( states => {
-        
-        for( state of states) {
-            ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
-        }
-    })
+        .then(res => res.json())
+        .then(states => {
+
+            for (state of states) {
+                ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
+            }
+        })
 }
 
 
@@ -30,17 +30,17 @@ function getCities(event) {
     citySelect.disable = true
 
     fetch(url)
-    .then(res => res.json())
-    .then( cities => {
+        .then(res => res.json())
+        .then(cities => {
 
-        for (city of cities) {
+            for (city of cities) {
 
 
-            citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
-        }
+                citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
+            }
 
-        citySelect.disabled = false
-    })
+            citySelect.disabled = false
+        })
 }
 
 
@@ -69,12 +69,12 @@ function handleSelectedItem(event) {
     itemLi.classList.toggle("selected")
 
     const itemId = itemLi.dataset.id
-    
+
 
     // verificar se existem itens selecionados, se sim
     // pegar os itens selecionados
 
-    const alreadySelected = selectedItems.findIndex( item => {
+    const alreadySelected = selectedItems.findIndex(item => {
         const itemFound = item == itemId // retorno true ou false
         return itemFound
     })
@@ -82,7 +82,7 @@ function handleSelectedItem(event) {
     // se já estiver selecionado,
     if (alreadySelected >= 0) {
         //  tirar da seleção
-        const filteredItems = selectedItems.filter( item => {
+        const filteredItems = selectedItems.filter(item => {
             const itemIsDifferent = item != itemId
             return itemIsDifferent
         })
@@ -93,7 +93,7 @@ function handleSelectedItem(event) {
         // adicionar à seleção
         selectedItems.push(itemId)
     }
- 
+
     //atualizar o campo escondido com os itens selecionados
     collectedItems.value = selectedItems
 

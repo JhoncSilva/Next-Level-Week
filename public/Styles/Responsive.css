@@ -45,7 +45,7 @@
     }
 }
 
-@media (max-width: 650px ) {
+@media (max-width: 700px ) {
     
     /* pesquisar ponto de coleta e cadastrar ponto de coleta não se colidem mais em mobile*/
     #page-home header a {
@@ -64,29 +64,19 @@
         margin-bottom: 30px;
     }
 
-    /* formulários de create-point adaptados para mobile*/
+    /* formulários de create-point adaptados para mobile (otimizei pela aula 4) */
 
     #page-create-point .items-grid {
         grid-template-columns: auto;
-    }
-
-    #page-create-point form {
-        margin: auto;
-        padding: 0;
-    }
-
-    #page-create-point form input {
-        max-width: 300px
-    }
-
-    #page-create-point form .field {
-        flex:none;
     }
 
     #page-create-point form .field-group {
         flex-direction:column;
     }
 
+    #page-create-point form .field-group .field + .field {
+        margin-left:0;
+    }
 }
 
 @media (max-width: 400px ) {

@@ -1,11 +1,16 @@
+body {
+    background-color: white;
+}
+
 body::after {
     content: "";
-    position: fixed;
-    background: white;
-    top: 260px;
+    position: absolute;
+    background: #f0f0f5;
+    top: 0;
     right:0;
     left: 0;
     bottom: 0;
+    height: 16rem;
     z-index: -1;
 }
 
@@ -95,4 +100,9 @@ main .card p {
     line-height: 26px;
 
     color: #6c6c80;
+}
+
+main a {
+    color: var(--title-color);
+    font-weight: bold;
 }
