@@ -5,21 +5,22 @@ Existem duas trilhas existentes nesse projeto, a **Starter**, focada em iniciant
 
 A trilha que eu estou fazendo é a starter, e estarei atualizando o conteúdo do repositório conforme as aulas estão sendo liberadas.
 
-# <img src="Assets/logo.svg" alt="drawing" width="200" height="50"/>
-Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace que ajuda a encontrar pontos de coleta de forma eficiente.
+# <img src="public/assets/logo.svg" alt="drawing" width="200" height="50"/>
+Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace que ajuda a encontrar pontos de coleta de forma eficiente, com um sistema de registro e pesquisa desses pontos, alocados em um banco de dados.
+
+As linguagens utilizadas foram **HTML, CSS, Javascript e SQL.**
+
 
 - [x] Dia 1
 * Introdução ao projeto
 * Criação da página inicial
 * HTML e CSS
 * Introdução a responsividade
-<img src="Assets/Print-Index.jpg" alt="Página index" width="600"/>
 
 - [x] Dia 2
 * Introdução ao Javascript
 * Página de criar ponto de coleta
 * HTML, CSS e JS
-<img src="Assets/Print-Create-Point.jpg" alt="Página criar ponto de coleta" width="600"/>
 
 - [x] Dia 3
 * Correção de bugs
@@ -27,17 +28,15 @@ Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace qu
 * Att página inicial e Ponto de coleta
 * Criação da página de resultados de pesquisa
 
-<img src="Assets/Print-Index-2.jpg" alt="Página Index 2" width="600"/>
+- [x] Dia 4
+* Organização das pastas do projeto
+* Criação do servidor
+* Template engine (nunjucks)
 
-<img src="Assets/Print-Create-Point-2.jpg" alt="Página criar ponto de coleta 2" width="600"/>
-
-<img src="Assets/Print-Search-Results.jpg" alt="Página resultados de pesquisa" width="600"/>
-
-- [ ] Dia 4
-
-- [ ] Dia 5
-
-
+- [x] Dia 5
+* Introdução a banco de dados (SQLite)
+* Criação de uma database
+* Esquema de registro e pesquisa de pontos de coleta completos
 
 ***
 <p align="center"><b>
