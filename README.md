@@ -10,6 +10,32 @@ Ecoleta é o projeto que está sendo realizado neste workshop, um marketplace qu
 
 As linguagens utilizadas foram **HTML, CSS, Javascript e SQL.**
 
+# :books: Como Utilizar
+
+- [Baixe ou clone](https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository) este repositório
+
+- Abra o cmd, e entre na pasta do repositório
+
+- Digite **npm install**
+
+- Aguarde a instação dos pacotes
+
+- Após a instalação, digite **npm start** 
+
+- Abra no seu navegador a página **localhost:3000/**
+
+- E pronto! :sparkles:
+# :camera: Screenshots
+### Página inicial:
+<img src="public/assets/screenshot-Index.gif" alt="Gif página inicial" width="600" height="400"/>
+
+### Página criar ponto de coleta:
+<img src="public/assets/screenshot-Create-Point.gif" alt="Gif página inicial" width="600" height="400"/>
+
+### Página pesquisar ponto de coleta:
+<img src="public/assets/Screenshot-Search-Points.gif" alt="Gif página inicial" width="600" height="400"/>
+
+# :heavy_check_mark: Progresso
 
 - [x] Dia 1
 * Introdução ao projeto
