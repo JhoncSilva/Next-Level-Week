@@ -1,4 +1,8 @@
-# Next Level Week
+[![GitHub license](https://img.shields.io/github/license/JhoncSilva/Proffy?style=flat-square)](https://github.com/JhoncSilva/Proffy/blob/master/LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/JhoncSilva/Proffy?style=flat-square)
+
+<h1 align="center"> Next Level Week </h1>
+
 A NLW é um workshop feito pela [rocketseat](http://rocketseat.com.br/), que tem como foco levar os programadores ao próximo nível de sua carreira.
 
 Existem duas trilhas existentes nesse projeto, a **Starter**, focada em iniciantes que tiveram pouco ou nenhum contato com programação, e a **Booster**, feita para quem já está em um nível intermediário, e tem bastante experiência com códigos. 
